@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Foreground: stylized hand with "ISL" wave — white on transparent -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Palm base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,68 C34,68 30,60 30,50 C30,42 35,36 42,36 C44,36 46,37 47,38
+                          L47,28 C47,25 49,23 52,23 C55,23 57,25 57,28 L57,38
+                          C58,37 60,36 62,36 C65,36 67,38 67,41 L67,42
+                          C68,41 70,40 72,40 C75,40 77,42 77,45 L77,52
+                          C78,51 80,51 81,52 C83,53 84,55 84,58 L84,65
+                          C84,78 75,86 62,86 L54,86
+                          C44,86 36,80 34,68 Z" />
+
+    <!-- Thumb -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,68 C30,62 28,55 30,48 C31,44 34,41 38,40
+                          C36,44 35,50 36,56 Z" />
+
+    <!-- Finger highlight lines (give hand definition) -->
+    <path
+        android:strokeColor="#6c3fc5"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M57,38 L57,60" />
+    <path
+        android:strokeColor="#6c3fc5"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M67,42 L67,62" />
+    <path
+        android:strokeColor="#6c3fc5"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M77,46 L77,63" />
+
+    <!-- Glowing dot accent (ISL brand mark) -->
+    <path
+        android:fillColor="#a78bfa"
+        android:pathData="M52,76 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+</vector>

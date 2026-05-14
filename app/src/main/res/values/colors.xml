@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colors -->
+    <color name="background_dark">#0A0A0F</color>
+    <color name="surface_dark">#15151E</color>
+    <color name="card_dark">#1E1E2E</color>
+
+    <!-- State indicator colors -->
+    <color name="border_word_mode">#4CAF50</color>    <!-- Green = listening -->
+    <color name="border_spell_mode">#FF9800</color>   <!-- Orange = fingerspelling -->
+    <color name="border_api_call">#2196F3</color>     <!-- Blue = LLM processing -->
+    <color name="border_idle">#555577</color>         <!-- Muted = no hands -->
+
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0CC</color>
+    <color name="text_hint">#555577</color>
+
+    <!-- Accent -->
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_blue">#2196F3</color>
+    <color name="accent_red">#FF4444</color>
+
+    <!-- MediaPipe landmark colors -->
+    <color name="landmark_point">#00E5FF</color>
+    <color name="landmark_line">#0088AA</color>
+</resources>

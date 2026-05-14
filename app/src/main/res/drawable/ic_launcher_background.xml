@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gradient background: deep navy to violet (matches SignBridge theme) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="#0a0e27"
+        android:centerColor="#3b2d7a"
+        android:endColor="#6c3fc5"
+        android:angle="135"
+        android:type="linear" />
+</shape>

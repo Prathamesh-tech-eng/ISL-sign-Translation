@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SignBridge ISL</string>
+    <string name="permission_required">Camera permission is required for ISL recognition</string>
+    <string name="listening">LISTENING</string>
+    <string name="spell_mode">SPELL MODE</string>
+    <string name="processing">PROCESSING…</string>
+    <string name="clear">Clear</string>
+</resources>
