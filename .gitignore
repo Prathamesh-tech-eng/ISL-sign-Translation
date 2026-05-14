@@ -1,0 +1,42 @@
+# ──────────────────────────────────────────────────────────────
+# Android .gitignore — ISL SignBridge Project
+# ──────────────────────────────────────────────────────────────
+
+# ── SENSITIVE — NEVER COMMIT ───────────────────────────────────
+local.properties          # Contains GROQ_API_KEY and SDK path
+
+# ── BUILD OUTPUTS ──────────────────────────────────────────────
+build/
+app/build/
+.gradle/
+*.apk
+*.aab
+*.ap_
+
+# ── ANDROID STUDIO IDE ─────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ── LARGE BINARY MODEL FILES ───────────────────────────────────
+# TFLite models are large binaries; distribute separately or via Git LFS
+# Uncomment the next line to also exclude .tflite files:
+# app/src/main/assets/*.tflite
+
+# hand_landmarker.task is a required MediaPipe model — commit it
+# but exclude generated/temp assets
+app/src/main/assets/convert_models.py  # Colab helper, not needed in repo
+
+# ── KOTLIN / JAVA ──────────────────────────────────────────────
+*.class
+*.kotlin_module
+out/
+
+# ── GRADLE WRAPPER (keep gradlew + gradle/wrapper, exclude cache) ──
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties

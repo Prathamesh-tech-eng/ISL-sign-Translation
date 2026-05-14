@@ -1,0 +1,8 @@
+# Copy this file to local.properties and fill in your values.
+# local.properties is git-ignored and should NEVER be committed.
+
+# Android SDK path (set automatically by Android Studio)
+sdk.dir=C\:\\Users\\YOUR_USERNAME\\AppData\\Local\\Android\\Sdk
+
+# Get your free API key from: https://console.groq.com
+GROQ_API_KEY=gsk_YOUR_GROQ_API_KEY_HERE
